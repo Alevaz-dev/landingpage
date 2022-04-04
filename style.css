@@ -9,13 +9,13 @@ body {
     display: flex;
     flex-direction: column;
 }
-.banner{
+.divisory{
     width: 100%;
-    height: 350px;
+    height: 50px;
     object-fit: fill;
+    background-color: black;
 }
 .header{
-    position: fixed;
     display: flex;
     width: 100%;
     background-color: black;
@@ -38,6 +38,10 @@ body {
 .header a {
     color: aliceblue
 }
+
+
+/*Home section*/
+
 .home{
     display: grid;
     grid-gap: 10px;
@@ -55,6 +59,7 @@ body {
 }
 .home :last-child{
     grid-column: 2/ span 3;
+    padding: 0px 10px 0px 0px;
 }
 .home img{
     width: 200px;
@@ -67,9 +72,12 @@ body {
 .home p {
     color: aliceblue;
 }
+
+/*Servicios section*/
+
 .servicios{
     align-self: center;
-    background-color: azure;
+    background-color: #a9dbdb;
     width: 90%;
     height: fit-content;
     display: grid;
@@ -109,11 +117,14 @@ body {
     height: 200px;
     padding: 0 20px;
 }
+
+/*Contact section*/
+
 .contacto{
     display: flex;
     flex-direction: column;
     background-color: black;
-    width: 65%;
+    width: 100%;
     height: 140px;
     border-radius: 100px;
     align-items: center;
@@ -129,9 +140,21 @@ body {
 }
 .button_container {
     display: flex;
-    width: 80%;
-}
-.button{
-    flex-grow: 1;
+    width: 90%;
     gap: 5px;
 }
+.button{
+    border-radius: 20px;
+    flex: 1;
+    padding: 11px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: montserrat;
+    color: #000  
+}
+.button:hover{
+    background-color: #a9dbdb;
+    color: black;
+}
+
