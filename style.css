@@ -158,3 +158,6 @@ body {
     color: black;
 }
 
+@media screen and (maxwidth: 400px) {
+    
+}
